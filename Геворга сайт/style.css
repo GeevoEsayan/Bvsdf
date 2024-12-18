@@ -1,0 +1,136 @@
+.page {
+    font-family: 'Cormorant Garamond';
+    background-color: #cedfd8;
+}
+
+.header {
+    display: flex;
+    max-width: 1330px;
+    min-width: 1280px;
+    margin: auto;
+}
+
+.header__link {
+    margin: auto;
+    font-size: 38px;
+    text-decoration: none;
+    color: #10191E;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    min-height: 75px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1330px;
+    min-width: 1280px;
+    margin: 40px auto;
+}
+.menu__link {
+    font-size: 28px;
+    text-decoration: none;
+    color: #10191E;
+    margin-right: 20px;
+}
+.menu__link_active {
+    text-decoration: underline;
+}
+.content {
+    max-width: 1330px;
+    min-width: 1280px;
+    margin: auto;
+}
+
+.question{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: url(rockets.png);
+    background-size: 250px;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.question__heading{
+    font-size: 28px;
+}
+.question__details{
+    font-size: 24px;
+    margin-top: 5px;
+    text-indent: 24px;
+}
+.question__last{
+    margin-bottom: 30px;
+}
+.h1{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #bb532d, #553c9a);
+    background-size: 250px;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align:center;
+}
+.text__size{
+    font-size: 26px;
+    text-indent: 24px;
+}
+.flex__content{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    align-content: center; 
+    flex-flow: row ;
+    height: 100%;
+    width: 100%;
+}
+.div__content{ /*Переименуй он же левый*/
+    order: -1; /*кто первый -1 - самый первый отображается*/
+    flex: 0 1 auto;
+    align-self: auto;
+
+}
+.left__div{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    text-indent: 24px;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.left__div_button {
+    background-color: white;
+    color: black;
+    margin: auto;
+    display: block;
+  }
+.right__div{
+    order: 1;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+.footer{
+    display: flex;
+    height: 300px;
+    background-color: #000;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+.footer__author{
+    font-size: 24px;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+  }
+.footer__down{
+    font-size: 14px;
+    color: white;
+    margin: auto;
+}
